@@ -1,0 +1,252 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.21f1 (a38c86f6690f) revision 10718342'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19043.1288; Version 2009; 64bit' Language: 'ru' Physical Memory: 16183 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/zekan/First project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55966
+Successfully changed project path to: C:/Users/zekan/First project
+C:/Users/zekan/First project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 38.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.21f1 (a38c86f6690f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/zekan/First project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   
+    VRAM:     8091 MB
+    Driver:   27.20.100.8984
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003226 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 35.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.030 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1030ms)
+		BeginReloadAssembly (54ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (412ms)
+			LoadAssemblies (48ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (143ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (149ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (35ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (74ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010332 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 47.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.236 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1237ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1016ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (304ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (423ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (237ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2188 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.6 MB.
+System memory in use after: 95.7 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2623.
+Total: 2.667100 ms (FindLiveObjects: 0.166600 ms CreateObjectMapping: 0.057900 ms MarkObjects: 2.408500 ms  DeleteObjects: 0.032600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Hero.cs
+  artifactKey: Guid(b25708c3e3e25f44a9f15da4d9ac9e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hero.cs using Guid(b25708c3e3e25f44a9f15da4d9ac9e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99dd99e0bd49adc0780a1a3c045ecd3c') in 0.038817 seconds 
+  Import took 0.043433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1571.180681 seconds.
+  path: Assets/Animations/WalkingMonster
+  artifactKey: Guid(39578abcb4ecc1e41bc9edbe1a0cddb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/WalkingMonster using Guid(39578abcb4ecc1e41bc9edbe1a0cddb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '480c48ad782ed49492f0a7bc8b74d47a') in 0.004926 seconds 
+  Import took 0.009287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.530393 seconds.
+  path: Assets/Animations/WalkingMonster/Idle
+  artifactKey: Guid(df0eaf49c32f633429b069e738125e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/WalkingMonster/Idle using Guid(df0eaf49c32f633429b069e738125e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22b513a720b377b2f180049794adaec') in 0.005200 seconds 
+  Import took 0.008512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070164 seconds.
+  path: Assets/Animations/WalkingMonster/Idle/frame-1.png
+  artifactKey: Guid(a59545cda43fb8f45a4f30d5134b700c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/WalkingMonster/Idle/frame-1.png using Guid(a59545cda43fb8f45a4f30d5134b700c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '513c0a414315c67b71e68eeb307e784c') in 0.136986 seconds 
+  Import took 0.141082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Animations/WalkingMonster/Idle/frame-5.png
+  artifactKey: Guid(da6f70bb7c6c1be4587fb08c20917032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/WalkingMonster/Idle/frame-5.png using Guid(da6f70bb7c6c1be4587fb08c20917032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708c3ef2ceca9dbb6fef3a16d0528244') in 0.015490 seconds 
+  Import took 0.019031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Animations/WalkingMonster/Idle/frame-4.png
+  artifactKey: Guid(50c7a47c6ba7a79428dddfbcaacb75c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/WalkingMonster/Idle/frame-4.png using Guid(50c7a47c6ba7a79428dddfbcaacb75c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b0d54ca0e7b4cbc19da326851a277a') in 0.017727 seconds 
+  Import took 0.021328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Animations/WalkingMonster/Idle/frame-2.png
+  artifactKey: Guid(6423b9c90ce565f4d94bfb21584fd368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/WalkingMonster/Idle/frame-2.png using Guid(6423b9c90ce565f4d94bfb21584fd368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d02819246285c418643cee4378fb0e') in 0.017928 seconds 
+  Import took 0.021444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Animations/WalkingMonster/Idle/frame-3.png
+  artifactKey: Guid(0bdbfd4b9abf7844ba44148c9c92e175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/WalkingMonster/Idle/frame-3.png using Guid(0bdbfd4b9abf7844ba44148c9c92e175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd921b992abedbfcc0320fd0f8f2bce') in 0.018018 seconds 
+  Import took 0.021752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/Animations/WalkingMonster/Idle/frame-6.png
+  artifactKey: Guid(b73974c2723c0d64da6244bacec9e2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/WalkingMonster/Idle/frame-6.png using Guid(b73974c2723c0d64da6244bacec9e2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd8f65a4dda14f65b9a8eeadd6fa497') in 0.016744 seconds 
+  Import took 0.020925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.433383 seconds.
+  path: Assets/Animations/WalkingMonster/Walk
+  artifactKey: Guid(68f4afdc7703b75458bff9a606ef2f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/WalkingMonster/Walk using Guid(68f4afdc7703b75458bff9a606ef2f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2105552519ad8dd57eaa23b0c3065905') in 0.003848 seconds 
+  Import took 0.006894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043437 seconds.
+  path: Assets/Animations/WalkingMonster/Walk/frame-1.png
+  artifactKey: Guid(3dbcae15bb45cd04d85684b5a6b8cb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/WalkingMonster/Walk/frame-1.png using Guid(3dbcae15bb45cd04d85684b5a6b8cb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c56c57c86f18b395e28598ef6cff7c1') in 0.015736 seconds 
+  Import took 0.018815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Animations/WalkingMonster/Walk/frame-2.png
+  artifactKey: Guid(e9a6dff1fc0d7d548b64d83ee987a8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/WalkingMonster/Walk/frame-2.png using Guid(e9a6dff1fc0d7d548b64d83ee987a8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b044cd7e58fc0b3bbbf93a506090ea56') in 0.017056 seconds 
+  Import took 0.020018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.173366 seconds.
+  path: Assets/Materials/Walking Monster/Walk
+  artifactKey: Guid(a3e58b1c8e177e849a997bcad1faa7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Walking Monster/Walk using Guid(a3e58b1c8e177e849a997bcad1faa7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f06d0769cfb1a955e27479cd70476f') in 0.012176 seconds 
+  Import took 0.015429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042005 seconds.
+  path: Assets/Materials/Walking Monster/Walk/frame-1.png
+  artifactKey: Guid(f32a4458159be4c43ab23b049085a412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Walking Monster/Walk/frame-1.png using Guid(f32a4458159be4c43ab23b049085a412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81918558e0ff73e961ccd807af3debda') in 0.015340 seconds 
+  Import took 0.018803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Materials/Walking Monster/Walk/frame-2.png
+  artifactKey: Guid(d712b56008c997a4a991e095ddc4dce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Walking Monster/Walk/frame-2.png using Guid(d712b56008c997a4a991e095ddc4dce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa34790bc7c8ab6b0ca4758a2ff8fb8') in 0.013454 seconds 
+  Import took 0.016668 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
